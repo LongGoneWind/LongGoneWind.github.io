@@ -11,5 +11,22 @@ body
 }
 .toplink
 {
-    font-size: medium;
+    font-size: large;
+    font-weight: bold;
+}
+.toplink:link
+{
+color: blue;
+}
+.toplink:visited
+{
+ color: blue;
+}
+.toplink:hover
+{
+    color: green;
+}
+.toplink:active
+{
+ color: red;
 }
