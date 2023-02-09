@@ -3,16 +3,21 @@ body
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
+    background-color: darkslateblue;
 }
 .centered
 {
     text-align: center;
     justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .toplink
 {
     font-size: large;
     font-weight: bold;
+    border: 2px black solid;
+    background-color: green;
 }
 a:link
 {
@@ -28,4 +33,19 @@ a:hover
 a:active
 {
     color: red;
+}
+p
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: goldenrod;
+    border: dashed tomato 2px;
+    width:80%;
+}
+#resume
+{
+    border: 2px black solid;
+    background-color: darkolivegreen;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: large;
 }
