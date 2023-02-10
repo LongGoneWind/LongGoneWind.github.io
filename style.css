@@ -167,7 +167,7 @@ p
     }
     .org
     {
-        display: inline-flex;
+        display: block;
     }
     #facebook
     {
