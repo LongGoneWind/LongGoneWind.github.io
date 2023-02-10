@@ -6,7 +6,6 @@ body
     grid-template-columns:repeat(4,25%);  
     grid-template-rows: repeat(4,56%);
     background-color: #1b1f25;
-    background-image: url(Images/MeAtBeachAdjust.jpg);
 }
 .centered
 {
