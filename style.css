@@ -123,6 +123,10 @@ p
     align-items: center ; 
 
 }
+#discord
+{
+    width: 75px;
+}
 @media screen and ( min-width : 800px )
 {
     body
