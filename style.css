@@ -4,7 +4,7 @@ body
 {
     display: grid;
     grid-template-columns:repeat(4,25%);  
-    grid-template-rows: auto;
+    grid-template-rows: repeat(10,15%);
     background-color: #1b1f25;
 }
 .centered
@@ -51,7 +51,7 @@ p
 {
     font-family: Titillium web;
     color: goldenrod;
-    width:60%;
+    width:200px;
 }
 #resume
 {
@@ -59,9 +59,9 @@ p
     font-size: large;
     font-family: Comfortaa;
     grid-row: 2;
-    margin-left: 100%;
+    margin-left: 110%;
     margin-top: 5px;
-    height: 85%;
+    height: 50%;
     width: 130px;
 }
 .icons
@@ -72,12 +72,13 @@ p
 }
 .me
 {
-    margin-top: 10px;
+    margin-top: 50px;
     height: 100%; 
     width: 100%; 
     grid-column-start: 2;
     grid-column-end: 5;
-    grid-row: 4;
+    grid-row-start:3;
+    grid-row-end: 7; 
 }
 #resume:link
 {
