@@ -169,4 +169,29 @@ p
     {
         display: inline-flex;
     }
+    #facebook
+    {
+        grid-row: 3;
+        grid-column: 2;
+    }
+    #insta
+    {
+        grid-row: 3;
+        grid-column: 4;
+    }
+    #linked
+    {
+        grid-row: 5;
+        grid-column: 2;
+    }
+    #discord
+    {
+        grid-row: 5;
+        grid-column: 4;
+    }
+    #email
+    {
+        grid-row: 7;
+        grid-column: 3;
+    }
 }
