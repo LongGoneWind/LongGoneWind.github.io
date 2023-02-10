@@ -176,6 +176,7 @@ aside
         font-size: x-large;
         margin-left: 90px ;
         margin-top: 50px;
+        display: grid;
     }
     #facebook
     {
