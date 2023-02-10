@@ -115,6 +115,14 @@ p
     width: 50px;
     
 }
+.org
+{
+    font-size: large; 
+    grid-column: 2; 
+    margin-left: 50px; 
+    align-items: center ; 
+    display:grid;
+}
 @media screen and ( min-width : 800px )
 {
     body
