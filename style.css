@@ -121,7 +121,7 @@ p
     grid-column: 2; 
     margin-left: 50px; 
     align-items: center ; 
-    display:grid;
+
 }
 @media screen and ( min-width : 800px )
 {
@@ -175,7 +175,7 @@ p
     }
     .org
     {
-        display: grid;
+
     }
     #facebook
     {
