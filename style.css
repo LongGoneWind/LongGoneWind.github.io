@@ -166,4 +166,7 @@ p
         margin-top: 50px;
     }
     .org
+    {
+        display: inline-flex;
+    }
 }
