@@ -1,11 +1,11 @@
-  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web:ital,wght@0,300;1,300&display=swap');
 
 body
 {
     display: grid;
     grid-template-columns:repeat(4,25%);  
     grid-template-rows: repeat(10,15%);
-    background-color: #1b1f25;
+    background-color: #26271b;
 }
 .centered
 {
@@ -18,7 +18,7 @@ body
 {
     font-family: Comfortaa;
     font-size: large;
-    background-image: linear-gradient(#032b5b,#1b1f25);
+    background-image: linear-gradient(#1c447c,#26271b);
     grid-row-end: 5;
     grid-row-start: 1;
 }
@@ -29,33 +29,33 @@ a
 }
 a:link
 {
-    color:lightgray;
+    color:#d1e3f2;
     text-decoration: none;
     
 }
 a:visited{
-    color: lightgrey;
+    color: #d1e3f2;
     text-decoration: none;
 }
 a:hover
 {
-    color: blue;
+    color: #5c5b32;
     text-decoration: none;
 }
 a:active
 {
-    color: red;
+    color: #cfa89b;
     text-decoration: none;
 }
 p
 {
     font-family: Titillium web;
-    color: goldenrod;
+    color: #8f795c;
     width:200px;
 }
 #resume
 {
-    border: 2px lightgray solid;
+    border: 2px #d1e3f2 solid;
     font-size: large;
     font-family: Comfortaa;
     grid-row: 2;
@@ -82,24 +82,81 @@ p
 }
 #resume:link
 {
-    color: lightgrey;
+    color: #d1e3f2;
 }
 #resume:visited
 {
-    color: lightgray;
-}
-#resume:active
-{
-    color: chocolate;
+    color: #d1e3f2;
 }
 #resume:hover
 {
-    color: red;
+    color: #5c5b32;
+}
+#resume:active
+{
+    color: #cfa89b;
+}
+.intro
+{
+    grid-column-end: 5;
+    grid-column-start: 2;
+}
+.startintro
+{
+    font-size: x-large;
+}
+.quote
+{
+    visibility: hidden;
 }
 @media screen and ( min-width : 800px )
 {
-    .toplink
+    body
     {
-
+        grid-template-columns: repeat(5,20%);
+    }
+    a
+    {
+        margin-bottom: 30px;
+    }
+    .me
+    {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 8;
+        margin: 0;
+    }
+    #resume
+    {
+        grid-row: 3 ;
+        grid-column: 2;
+        margin-left: 100px;
+    }
+    .intro
+    {
+        grid-column: 2;
+        grid-row: 1;
+        margin-left: 50px;
+        font-size: x-large;
+        width: 250px;
+    }
+    .startintro
+    {
+        font-weight: bold;
+        font-size: 24pt;
+    }
+    .quote
+    {
+        visibility: visible;
+        font-family: 'Titillium Web', sans-serif;
+        font-style: italic;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5 ;
+        font-size: x-large;
+        margin-left: 90px ;
+        margin-top: 50px;
     }
 }
