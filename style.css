@@ -59,7 +59,7 @@ p
     font-size: large;
     font-family: Comfortaa;
     grid-row: 2;
-    margin-left: 110%;
+    margin-left: 100%;
     margin-top: 5px;
     height: 50%;
     width: 130px;
@@ -78,7 +78,7 @@ p
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start:3;
-    grid-row-end: 7; 
+    grid-row-end: 9; 
 }
 #resume:link
 {
@@ -98,5 +98,8 @@ p
 }
 @media screen and ( min-width : 800px )
 {
-    
+    .toplink
+    {
+
+    }
 }
