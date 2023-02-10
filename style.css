@@ -124,6 +124,7 @@ p
     a
     {
         margin-bottom: 30px;
+        display: grid;
     }
     .me
     {
@@ -167,7 +168,7 @@ p
     }
     .org
     {
-        display: block;
+        display: grid;
     }
     #facebook
     {
