@@ -18,7 +18,7 @@ body
 {
     font-family: Comfortaa;
     font-size: large;
-    background-color: #032b5b;
+    background-image: linear-gradient(#032b5b,#1b1f25);
     grid-row-end: 5;
     grid-row-start: 1;
 }
