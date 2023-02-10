@@ -1,9 +1,11 @@
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Titillium+Web:wght@300&display=swap');
+
 body
 {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    background-color: darkslateblue;
+    background-color: #1b1f25;
 }
 .centered
 {
@@ -14,30 +16,35 @@ body
 }
 .toplink
 {
+    font-family: Comfortaa;
     font-size: large;
-    font-weight: bold;
-    border: 2px black solid;
-    background-color: green;
+    background-color: #032b5b;
     width: 100%;
+    
 }
 a:link
 {
-    color:goldenrod;
+    color:lightgray;
+    text-decoration: none;
+    
 }
 a:visited{
-    color: goldenrod;
+    color: lightgrey;
+    text-decoration: none;
 }
 a:hover
 {
     color: blue;
+    text-decoration: none;
 }
 a:active
 {
     color: red;
+    text-decoration: none;
 }
 p
 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Titillium web;
     color: goldenrod;
     border: dashed tomato 2px;
     width:80%;
@@ -49,4 +56,5 @@ p
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: large;
+    font-family: Comfortaa;
 }
