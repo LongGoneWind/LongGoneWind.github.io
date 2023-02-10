@@ -105,7 +105,7 @@ p
 {
     font-size: x-large;
 }
-.quote
+aside
 {
     visibility: hidden;
 }
@@ -164,7 +164,7 @@ p
         font-weight: bold;
         font-size: 24pt;
     }
-    .quote
+    aside
     {
         visibility: visible;
         font-family: 'Titillium Web', sans-serif;
@@ -176,10 +176,6 @@ p
         font-size: x-large;
         margin-left: 90px ;
         margin-top: 50px;
-    }
-    .org
-    {
-
     }
     #facebook
     {
