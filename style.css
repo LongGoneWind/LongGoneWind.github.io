@@ -179,33 +179,33 @@ aside
     }
     #facebook
     {
-        grid-row: 4;
-        grid-column: 3;
+        grid-row: 3;
+        grid-column: 2;
     }
     #insta
     {
-        grid-row: 4;
-        grid-column: 5;
+        grid-row: 3;
+        grid-column: 4;
     }
     #linked
     {
-        grid-row: 6;
-        grid-column: 3;
+        grid-row: 5;
+        grid-column: 2;
 
     }
     #discord
     {
-        grid-row: 6;
-        grid-column: 5;
+        grid-row: 5;
+        grid-column: 4;
     }
     #email
     {
-        grid-row: 8;
-        grid-column: 4;
+        grid-row: 7;
+        grid-column: 3;
 
     }
     .org
     {
-        display: inline;
+        display: block;
     }
 }
