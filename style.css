@@ -180,35 +180,34 @@ aside
     }
     #facebook
     {
+        display: inline;
         grid-row: 4;
         grid-column: 4;
-        display: inline;
     }
     #insta
     {
+        display: inline;
         grid-row: 4;
         grid-column: 6;
-        display: inline;
     }
     #linked
     {
+        display: inline;
         grid-row: 6;
         grid-column: 4;
-        display: inline;
 
     }
     #discord
     {
+        display: inline;
         grid-row: 6;
         grid-column: 6;
-        display: inline;
-
     }
     #email
     {
+        display: inline;
         grid-row: 8;
         grid-column: 5;
-        display: inline;
 
     }
 }
