@@ -182,25 +182,33 @@ aside
     {
         grid-row: 4;
         grid-column: 4;
+        display: inline;
     }
     #insta
     {
         grid-row: 4;
         grid-column: 6;
+        display: inline;
     }
     #linked
     {
         grid-row: 6;
         grid-column: 4;
+        display: inline;
+
     }
     #discord
     {
         grid-row: 6;
         grid-column: 6;
+        display: inline;
+
     }
     #email
     {
         grid-row: 8;
         grid-column: 5;
+        display: inline;
+
     }
 }
