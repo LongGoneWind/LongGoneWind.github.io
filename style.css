@@ -51,18 +51,18 @@ p
 {
     font-family: Titillium web;
     color: goldenrod;
-    border: dashed tomato 2px;
     width:60%;
 }
 #resume
 {
-    border: 2px black solid;
-    background-color: darkolivegreen;
+    border: 2px lightgray solid;
     font-size: large;
     font-family: Comfortaa;
-    grid-column: 3;
     grid-row: 2;
-    height: 40%;
+    margin-left: 100px;
+    margin-top: 5px;
+    height: 85%;
+    width: 130px;
 }
 .icons
 {
@@ -72,11 +72,28 @@ p
 }
 .me
 {
+    margin-top: 10px;
     height: 100%; 
     width: 100%; 
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row: 4;
+}
+#resume:link
+{
+    color: lightgrey;
+}
+#resume:visited
+{
+    color: lightgray;
+}
+#resume:active
+{
+    color: chocolate;
+}
+#resume:hover
+{
+    color: red;
 }
 @media screen and ( min-width : 800px )
 {
