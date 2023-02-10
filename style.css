@@ -109,6 +109,12 @@ p
 {
     visibility: hidden;
 }
+.iconsocial
+{
+    height: 50px; 
+    width: 50px;
+    
+}
 @media screen and ( min-width : 800px )
 {
     body
